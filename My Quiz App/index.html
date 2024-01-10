@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Quiz Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+      <div class="quizsection" id="quizsection">
+        <div class="header"><h1> Simple-Quiz </h1></div>
+        <div id="quiz">
+            <h2 class="question" id="question">Quiz Question</h2>
+            <hr>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" class="answer" id="a">
+                    <label for="a" class="option" id="option1">Quiz Options</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" class="answer" id="b">
+                    <label for="b" class="option" id="option2">Quiz Options</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" class="answer" id="c">
+                    <label for="c"class="option" id="option3">Quiz Options</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" class="answer" id="d">
+                    <label for="d"class="option" id="option4">Quiz Options</label>
+                </li>
+            </ul>
+            <hr>
+            <div class="btn" ><button type="submit" id="submit">Submit</button></div>
+         </div>
+      </div>
+    </div> 
+    <script src="main.js"></script>    
+</body>
+</html>
